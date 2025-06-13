@@ -4,7 +4,17 @@ const num2  = document.getElementById("num2")
 const calculate  = document.getElementById("calculate")
 const selectOperator = document.getElementById("select-operator");
 const result = document.getElementById("result");
+const changeText = document.getElementById("change_text")
 let operator = "+"
+const division = document.getElementById("division");
+changeText.addEventListener("click",()=>{
+	division.innerHTML = `<p>Bye</p>
+		<p>Good Bye</p>
+		<p>To</p>
+		<p>Your</p>
+		<p>Class</p>`
+}
+)
 selectOperator.addEventListener("change",(e) =>{
 	operator = e.target.value;
 	
