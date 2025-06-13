@@ -8,11 +8,13 @@ const changeText = document.getElementById("change_text")
 let operator = "+"
 const division = document.getElementById("division");
 changeText.addEventListener("click",()=>{
-	division.innerHTML = `<p>Bye</p>
-		<p>Good Bye</p>
-		<p>To</p>
-		<p>Your</p>
-		<p>Class</p>`
+	division.innerHTML = `
+    <div class="division">Bye</div>
+    <div class="division">Good Bye</div>
+    <div class="division">To</div>
+    <div class="division">Your</div>
+    <div class="division">Class</div>
+  `;
 }
 )
 selectOperator.addEventListener("change",(e) =>{
